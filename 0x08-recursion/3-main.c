@@ -8,15 +8,15 @@
  */
 int main(void)
 {
-int r;
+//int r;
 
-r = _puts_recursion("1");
-printf("%d\n", r);
-r = _puts_recursion("5");
-printf("%d\n", r);
-r = _puts_recursion("10");
-printf("%d\n", r);
-r = _puts_recursion("-1024");
-printf("%d\n", r);
+_puts_recursion("1");
+
+_puts_recursion("5");
+
+_puts_recursion("10");
+
+_puts_recursion("-1024");
+
 return (0);
 }
